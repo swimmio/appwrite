@@ -1,0 +1,28 @@
+{
+    "id": "Xi2jdIOKD41ytzR4MsKl",
+    "name": "nono",
+    "tests": [],
+    "hints": [],
+    "files": {
+        "src/Appwrite/Storage/Compression/Compression.php": {
+            "index": [
+                "ed78ed1c..48fc0ba9",
+                "100644"
+            ],
+            "fileA": "src/Appwrite/Storage/Compression/Compression.php",
+            "fileB": "src/Appwrite/Storage/Compression/Compression.php",
+            "status": "MODIFIED",
+            "numLineDeletions": 1,
+            "numLineAdditions": 0,
+            "hunkContainers": [
+                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0xJTJDNiUyMCUyQjElMkM1JTIwJTQwJTQwJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUzQyUzRnBocCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTElMkMlMjJiJTIyJTNBMSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTIlMkMlMjJiJTIyJTNBMiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJuYW1lc3BhY2UlMjBBcHB3cml0ZSU1QyU1Q1N0b3JhZ2UlNUMlNUNDb21wcmVzc2lvbiUzQiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTMlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E0JTJDJTIyYiUyMiUzQTMlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjBhYnN0cmFjdCUyMGNsYXNzJTIwQ29tcHJlc3Npb24lMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E1JTJDJTIyYiUyMiUzQTQlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlN0IlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E2JTJDJTIyYiUyMiUzQTUlN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0ExJTJDJTIybGluZXNDb3VudCUyMiUzQTYlN0QlMkMlMjJiJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMSUyQyUyMmxpbmVzQ291bnQlMjIlM0E1JTdEJTdEJTdEJTdE"
+            ]
+        }
+    },
+    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnNyYyUyRkFwcHdyaXRlJTJGU3RvcmFnZSUyRkNvbXByZXNzaW9uJTJGQ29tcHJlc3Npb24ucGhwJTIwYiUyRnNyYyUyRkFwcHdyaXRlJTJGU3RvcmFnZSUyRkNvbXByZXNzaW9uJTJGQ29tcHJlc3Npb24ucGhwJTBBaW5kZXglMjBlZDc4ZWQxYy4uNDhmYzBiYTklMjAxMDA2NDQlMEEtLS0lMjBhJTJGc3JjJTJGQXBwd3JpdGUlMkZTdG9yYWdlJTJGQ29tcHJlc3Npb24lMkZDb21wcmVzc2lvbi5waHAlMEElMkIlMkIlMkIlMjBiJTJGc3JjJTJGQXBwd3JpdGUlMkZTdG9yYWdlJTJGQ29tcHJlc3Npb24lMkZDb21wcmVzc2lvbi5waHAlMEElNDAlNDAlMjAtMSUyQzYlMjAlMkIxJTJDNSUyMCU0MCU0MCUwQSUyMCUzQyUzRnBocCUwQSUyMCUwQS1uYW1lc3BhY2UlMjBBcHB3cml0ZSU1Q1N0b3JhZ2UlNUNDb21wcmVzc2lvbiUzQiUwQSUyMCUwQSUyMGFic3RyYWN0JTIwY2xhc3MlMjBDb21wcmVzc2lvbiUwQSUyMCU3QiUwQQ==",
+    "description": "eW9vaG9v",
+    "dod": "dGhpJTIwaXMlMjB0aGUlMjBkb2Rv",
+    "summary": "ZmRzZnNhZGY=",
+    "file_version": "1.0.2",
+    "app_version": "0.1.70"
+}
